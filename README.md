@@ -2,8 +2,10 @@
 Doing Data Science 2021
 
 ## prettydoc
-Install the package in R. Then add the `html` file to `R\library\prettydoc\resources\templates` and `css` file to `R\library\prettydoc\resources\css`.
-Example:
+Please install the package `prettydoc` in R.
+This template is based on `architect`.
+You can add the `html` file to `RPATH\library\prettydoc\resources\templates` and `css` file to `RPATH\library\prettydoc\resources\css`.
+Code at the head as following:
 ```
 output:
   prettydoc::html_pretty:
