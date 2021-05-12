@@ -11,13 +11,13 @@ combines beautiful typography with a floating table of contents.
 ### How to use it
 
 1. Install package `prettydoc` in R.
-2. Add `morris.html` to `RPATH\library\prettydoc\resources\templates`.
-3. Add `morris.css` and `morris.min.css` to `RPATH\library\prettydoc\resources\css`.
+2. Add `moriwx.html` to `RPATH\library\prettydoc\resources\templates`.
+3. Add `moriwx.css` and `moriwx.min.css` to `RPATH\library\prettydoc\resources\css`.
 4. Code at the preamble of `.Rmd` file as following:
   ```
   output:
     prettydoc::html_pretty:
-      theme: morris
+      theme: moriwx
       highlight: github
       toc: TRUE
   ```
